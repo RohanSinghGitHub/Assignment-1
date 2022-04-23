@@ -42,9 +42,11 @@ input{
         display: inline;
         border: 1px solid black;
         float: left;
+        width: 177px;
+        text-decoration: solid;
         
 }
-.center{
+#main-content-section{
         
         border: 1px solid black;
         float: left;
@@ -61,7 +63,7 @@ input{
         height: 715px;
         
 }
-img{
+.post-img{
         
         padding: 10px;
 }

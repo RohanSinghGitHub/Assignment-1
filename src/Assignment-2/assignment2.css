@@ -1,7 +1,80 @@
 /* Our CSS file. */
 
 
-.container, .content {
+.container{
 width: 100%;
 height: 100%;
+}
+header{
+        background-color: rgb(202, 202, 251);
+}
+.logo{
+        display: inline;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+input{
+        display: block;
+        float: right;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+}
+.menu{
+        border: 1px solid black;
+        width: 97.25%;
+        margin-top: 2px;
+        float: left;
+       
+}
+.first{
+        margin-left:150px;
+        margin-bottom: 2px;
+        display: inline;
+        float: left;
+        display: block;
+        padding: 10px;
+        
+}
+
+.left{
+        display: inline;
+        border: 1px solid black;
+        float: left;
+        
+}
+.center{
+        
+        border: 1px solid black;
+        float: left;
+        margin-left: 10px;
+        width: 1080px;
+        
+
+}
+.right{
+        float: right;
+        margin-right: 1px;
+        display: inline-block;
+        border: 1px solid black;
+        height: 715px;
+        
+}
+img{
+        
+        padding: 10px;
+}
+li{
+        list-style-type: none;
+        margin: 30px;
+        padding: 10px;
+        width: 100px;  
+}
+footer{
+        float: left;
+        margin-bottom: 1%;
+        border: 1px solid black;
+        margin-top: 25px;
+        padding: 10px;
 }
